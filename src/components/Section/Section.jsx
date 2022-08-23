@@ -1,11 +1,13 @@
 import React from "react";
-import S from "./Section.modules.css";
+import S from './Section.module.css';
+import Forms from "../Forms/Forms";
+
 const Section = () => {
   return (
-    <section>
+    <section className={S.principal}>
       <div className={S.texto}>
-        <h3 className={S.tituloTexto}>Ajude o algorítimo a ser mais certeiro</h3>
-        <p className={S.paragrafo}>
+        <h1>Ajude o algorítimo a ser mais certeiro</h1>
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris
           rhoncus erat sed interdum dignissim. Suspendisse semper pretium
@@ -15,7 +17,7 @@ const Section = () => {
           torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel
           urna tortor. Vivamus et arcu non felis tristique eleifend.
         </p>
-        <p className={S.paragrafo}>
+        <p>
           Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum
           ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed,
           egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut
@@ -25,7 +27,9 @@ const Section = () => {
           est vel metus.
         </p>
       </div>
-      
+      <div className={S.formulario}>
+        <Forms/>
+      </div>
     </section>
   );
 };

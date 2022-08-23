@@ -1,0 +1,16 @@
+.principal{
+    display: flex;
+}
+.texto{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.formulario{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 50%;
+}
