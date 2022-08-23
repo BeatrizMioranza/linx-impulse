@@ -1,0 +1,41 @@
+.header{
+    background-color:#707070;
+}
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 69px;
+    color: #FFFFFF;
+}
+
+.tituloDois{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 24px;
+    color: #FFFFFF;
+}
+.subtitulo{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+.botoes{
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    text-align: center; 
+    font: normal normal normal 14px/16px Helvetica Neue;
+    color: #888888;
+    width: 160px;
+    height: 40px;
+}
+.botao{
+    padding-top: 50px;
+    padding-bottom: 129px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 40px;
+    
+}
