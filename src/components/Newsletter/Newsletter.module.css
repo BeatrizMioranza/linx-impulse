@@ -1,0 +1,30 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #888888;
+}
+.p {
+  font-size: 20px;
+  text-align: center;
+  color: #888888;
+  opacity: 1;
+}
+.forms {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+.input {
+  width: 340px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+.divlabel {
+  display: flex;
+  flex-direction: column;
+}

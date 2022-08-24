@@ -7,4 +7,14 @@
 body {
     width: 100%;
     min-height: 100vh;
+    font-family:"HelveticaRegular";
 }
+
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url(/Fonts/HelveticaNeueLight.ttf);
+  }
+  @font-face {
+    font-family: "HelveticaBold";
+    src: url(/Fonts/HelveticaNeueBold.ttf);
+  }

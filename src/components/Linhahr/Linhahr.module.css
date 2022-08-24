@@ -1,0 +1,26 @@
+.break {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #888888;
+}
+
+.hr {
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  width: 90%;
+  border-color: #707070aa;
+}
+
+.p {
+  position: relative;
+  z-index: 2;
+  right: 10;
+  font-size: 20px;
+  bottom: 13.5px;
+  background-color: white;
+  color: #888888;
+  padding: 0 20px;
+}

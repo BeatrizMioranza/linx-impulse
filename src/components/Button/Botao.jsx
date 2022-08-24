@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Botao = ({style, text}) => {
+const Botao = ({style, text, func}) => {
   return (
-    <button className={style}>{text}</button>
+    <button onClick={func} className={style}>{text}</button>
   )
 }
 
